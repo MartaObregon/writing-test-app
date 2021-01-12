@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+.section-yellow{
+    background-image: url("https://thewritingbee.org/assets/works_header-65a398664095b97b27180354faf9f16740476256576321935484384a49f6f7a8.jpg");
+    background-position: center;
+    background-size: cover;
+   display: flex;
+   align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-attachment: fixed; */
+}
+
+.section-yellow-intro{
+    margin:40px;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family:'Dancing Script', cursive; 
+
+    
+}
+.intro-title>h3{
+    font-weight: 800;
+}
+
+.intro-title>img{
+    width: 80px;
+    margin-left:10px;
+    
+}
+
+.list-item>img{
+    width: 60px;
+}
+
+.list-item1>img{
+    width: 60px;
+}
+
+.list-item>h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.list-item1>h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.list-item>p{
+    font-size: small;
+}
+
+.list-item1>p{
+    font-size: small;
+}
+
+@media screen and (max-width:770px){
+
+    .activities-list{
+        width: 100%;
+        
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        
+    }
+    .row{
+        width: 100%;
+        min-width: 300px;
+        max-width: 450px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .list-item{
+        width: 50%;
+        line-height: 0.5;
+    }
+
+    
+}
+
+@media screen and (min-width:771px){
+    .activities-list{
+        display: flex;
+        list-style: none;
+        align-items: center;
+        
+    }
+    
+    .list-item{
+        margin:15px;
+    }
+    
+   .row{
+       margin:15px;
+       
+   }
+   .list-item1{
+       display: flex;
+       flex-direction: column;
+       margin-left: -10px;
+       
+   }
+}

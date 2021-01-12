@@ -54,7 +54,9 @@ function SectionWhite() {
             </div>
 
             <div className="section-white-testimony">
-                <Avatar variant="square"  src="https://randomuser.me/api/portraits/women/36.jpg" className="testimony-avatar"/>
+                <Avatar variant="square"  src="https://randomuser.me/api/portraits/women/36.jpg" className="testimony-avatar"
+                    style={{width:"100px", height:"100px"}}
+                />
                 <div className="testimony-card">
                     <blockquote>
                     The Writing Bee was the most valuable writing experience I have had with my class in many years. My students were fully engaged - they collaborated, edited, imagined, improved, and happily worked for many hours on their chapter writing. My students improved their writing skills and also learned that they love writing.  Invaluable lessons.  Thank you, BoomWriter!
