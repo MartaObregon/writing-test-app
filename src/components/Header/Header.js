@@ -13,7 +13,6 @@ function Header() {
                     <h1>WRITING BEE</h1>
                     <p>BECAUSE ALL KIDS LOVE WRITING STORIES!</p>
                  
-                   
                 </div>
                 <div className="header-powered">
                         <p >POWERED BY</p>
@@ -23,8 +22,6 @@ function Header() {
 
                 <img className="header-img" alt="globe" src="https://thewritingbee.org/assets/hero_globe-5ef25db2cafdbab57261ff07b1b20217c7d6bf94ddee764bfb313effaa1703fd.png"/>
                 <img alt="tag-globe" className="header-img-tag" src ="https://thewritingbee.org/assets/triangle-57cf8c1dc84d3bcaf8cbe63966f680f2bca1f9f101e317fd345499202d77129a.png"/>
-                
-                
                 
             </div>
         </div>

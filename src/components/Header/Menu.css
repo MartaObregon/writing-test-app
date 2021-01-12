@@ -1,3 +1,7 @@
+.menu{
+    position:sticky;
+}
+
 .menuLogo{
     vertical-align: middle;
     border-style: none;
