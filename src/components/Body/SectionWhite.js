@@ -3,6 +3,7 @@ import './SectionWhite.css'
 import CheckCircleIcon from '@material-ui/icons/CheckCircle';
 import {Button} from 'react-bootstrap'
 import { Avatar } from '@material-ui/core';
+import { FormatItalic } from '@material-ui/icons';
 
 function SectionWhite() {
     return (
@@ -53,7 +54,16 @@ function SectionWhite() {
             </div>
 
             <div className="section-white-testimony">
-                <Avatar variant="square"  src="https://randomuser.me/api/portraits/women/36.jpg"/>
+                <Avatar variant="square"  src="https://randomuser.me/api/portraits/women/36.jpg" className="testimony-avatar"/>
+                <div className="testimony-card">
+                    <blockquote>
+                    The Writing Bee was the most valuable writing experience I have had with my class in many years. My students were fully engaged - they collaborated, edited, imagined, improved, and happily worked for many hours on their chapter writing. My students improved their writing skills and also learned that they love writing.  Invaluable lessons.  Thank you, BoomWriter!
+                    </blockquote>
+                    <p className="testimony-signature">D.Wilson</p>
+                    <span className="testimony-address">Camino Elementary School, Camino, California USA</span>
+                </div>
+                
+                <Button variant="primary">START YOUR CLASS WRITING BEE</Button>
             </div>
             
         </div>

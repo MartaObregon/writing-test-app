@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
 .section-white{
     color: #4A4A4A;
     font-weight: 400;
@@ -115,3 +118,47 @@
     margin-top:20px;
 }
 
+
+
+.section-white-testimony{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 40px;
+}
+
+.testimony-card{
+    background-color: #F4F4F4;
+    border-radius: 10px;
+    padding:50px 20px 30px;
+}
+
+
+.testimony-signature{
+    color:#007BFF;
+    font-family:'Dancing Script', cursive; 
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.testimony-card>span{
+    font-style: italic;
+}
+
+.testimony-avatar{
+    margin-bottom: -35px;
+    width: 100px;
+    height: 100px;
+}
+.section-white-testimony>button{
+    width: 100%;
+    max-width: 450px;
+    padding:10px 50px;
+    font-weight: 900;
+    border-radius: 5px;
+    font-size: 17px;
+    margin-top:20px;
+}
