@@ -4,6 +4,7 @@ import './Body.css'
 import SectionWhite from './SectionWhite'
 import SectionBlack from './SectionBlack'
 import SectionYellow from './SectionYellow'
+import SectionBottom from './SectionBottom'
 
 function Body() {
     return (
@@ -12,6 +13,7 @@ function Body() {
             <SectionWhite/>
             <SectionBlack/>
             <SectionYellow/>
+            <SectionBottom/>
         </div>
     )
 }
