@@ -3,7 +3,8 @@ import './SectionWhite.css'
 import CheckCircleIcon from '@material-ui/icons/CheckCircle';
 import {Button} from 'react-bootstrap'
 import { Avatar } from '@material-ui/core';
-import { FormatItalic } from '@material-ui/icons';
+
+import { Nav} from 'react-bootstrap'
 
 function SectionWhite() {
     return (
@@ -50,7 +51,7 @@ function SectionWhite() {
 
                 </ul>
 
-                <Button variant="primary">START YOUR CLASS WRITING BEE</Button>
+                <Nav.Link href="https://boomwriter.com/auth/teacher/signup"><Button classname="btn" variant="primary">START YOUR CLASS WRITING BEE</Button></Nav.Link>
             </div>
 
             <div className="section-white-testimony">
@@ -65,7 +66,7 @@ function SectionWhite() {
                     <span className="testimony-address">Camino Elementary School, Camino, California USA</span>
                 </div>
                 
-                <Button variant="primary">START YOUR CLASS WRITING BEE</Button>
+                <Nav.Link href="https://boomwriter.com/auth/teacher/signup"><Button classname="btn" variant="primary">START YOUR CLASS WRITING BEE</Button></Nav.Link>
             </div>
             
         </div>

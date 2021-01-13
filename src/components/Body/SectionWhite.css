@@ -108,15 +108,7 @@
 }
 
 
-.section-white-checklist>button{
-    width: 100%;
-    max-width: 450px;
-    padding:10px 50px;
-    font-weight: 900;
-    border-radius: 5px;
-    font-size: 17px;
-    margin-top:20px;
-}
+
 
 
 
@@ -153,7 +145,7 @@
     width: 200px;
     height: 300px;
 }
-.section-white-testimony>button{
+.btn{
     width: 100%;
     max-width: 450px;
     padding:10px 50px;

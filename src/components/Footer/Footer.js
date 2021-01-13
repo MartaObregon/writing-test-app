@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css'
+import { Nav} from 'react-bootstrap'
 
 function Footer() {
     return (
@@ -12,7 +13,7 @@ function Footer() {
 
             <div className="footer-text">
                 <p>The Writing Bee is powered by BoomWriter</p>
-                <p>To find out more visit www.boomwriter.com</p>
+                <span>To find out more visit <Nav.Link href="https://boomwriter.com/">www.boomwriter.com</Nav.Link> </span>
             </div>
             
         </div>
