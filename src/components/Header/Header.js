@@ -1,11 +1,25 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Nav from './Menu'
 import "./Header.css"
 
 function Header() {
+
+
+    const[show, handleShow] = useState(true);
+
+    useEffect(() => {
+        window.addEventListener("scroll", () => {
+            if(window.scrollY > 600) {
+                handleShow(false)
+            }else  handleShow(true)
+        });
+    }, [])
+
+
     return (
         <div className="Header">
-            <Nav/>
+           {show? (<Nav/>): (null)}
+            
             <div className="header-container">
                 <div className="header-link">
                     <span className="header-scroll">The 2020</span>

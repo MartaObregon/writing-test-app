@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
+
+
 .header-container::before{
     content: "";
     background-color: rgba(0, 0, 0, 0.7);
@@ -8,10 +10,12 @@
     left: 0;
     width: 100%;
     height: 100%;
+
     
     
 }
 .header-container{
+    padding-top: 100px;
     content: inherit;
     background-image:url("https://thewritingbee.org/assets/home/handwriting-ae883dc85504eb3fa5e0b2f04f4668858bbad825996e62b7b4d3bbe5e4937066.jpg");
     
